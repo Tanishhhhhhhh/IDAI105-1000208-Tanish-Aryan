@@ -45,21 +45,6 @@ The goal of this project is to analyze an Amazon dataset to:
 ### Prerequisites
 - Python 3.x
 - Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `mlxtend`, `streamlit`
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/amazon-market-basket-analysis.git
-   cd amazon-market-basket-analysis
-   ```
-
-2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download the dataset (`amazon.csv`) and place it in the project directory.
-
 ---
 
 ## Usage
