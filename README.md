@@ -82,3 +82,5 @@ The goal of this project is to analyze an Amazon dataset to:
 https://drive.google.com/file/d/1D7IQAd7wM_HhRUuldmaofza3VT5-agS-/view?usp=sharing
 ### Dataset Link
 https://drive.google.com/file/d/1x4lc25yo5AzM5HDMQpkUiC5l7M4wARWT/view?usp=sharing
+### Graph Inage link
+https://drive.google.com/drive/folders/1QXyuEWUlY0msmWkeqFFNiKfirqJ3TtSa?usp=sharing
