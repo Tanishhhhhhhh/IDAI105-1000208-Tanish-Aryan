@@ -13,31 +13,72 @@ The goal of this project is to analyze an Amazon dataset to:
 
 ---
 
-## Features
+🔍 Analysis Performed
+1️⃣ Data Cleaning & Preprocessing
+Handled missing values in key columns (Delivery_person_Ratings, Time_taken(min), Weatherconditions).
 
-- **Data Cleaning and Preprocessing**:
-  - Handles missing values in critical columns.
-  - Cleans and normalizes numerical data (e.g., prices, ratings).
-  - Encodes categorical variables (e.g., product categories).
+Removed outliers using IQR for numerical columns (Time_taken(min)).
 
-- **Exploratory Data Analysis (EDA)**:
-  - Visualizes the distribution of discounted and actual prices using histograms and box plots.
-  - Examines relationships between variables using scatter plots.
-  - Analyzes product ratings and category distributions using bar charts.
-  - Identifies correlations between numerical features using a heatmap.
+Normalized numerical data (e.g., Delivery_person_Age, Delivery_person_Ratings).
 
-- **Customer Segmentation**:
-  - Uses K-Means clustering to segment customers based on their purchasing behavior.
-  - Visualizes customer segments using scatter plots.
+Encoded categorical variables (Weatherconditions, Road_traffic_density, Type_of_vehicle).
 
-- **Association Rule Mining**:
-  - Implements the Apriori algorithm to discover frequent itemsets.
-  - Calculates support, confidence, and lift for association rules.
+📌 Key Insights:
+✔️ Ensured data consistency for further analysis.
+✔️ Improved model accuracy by handling missing values and outliers.
 
-- **User Behavior Analysis**:
-  - Creates customer profiles based on ratings, prices, and review counts.
-  - Analyzes review data to identify trends.
+2️⃣ Exploratory Data Analysis (EDA)
+📊 Distribution Analysis
+Histograms & Box Plots for Time_taken(min) and Delivery_person_Ratings.
 
+Scatter Plots to analyze relationships (e.g., Delivery Time vs. Ratings).
+
+📈 Correlation Analysis
+Heatmap to identify correlations between numerical features (Age, Ratings, Delivery Time).
+
+📌 Key Findings
+✔️ Most deliveries take 20-40 minutes.
+✔️ Higher-rated delivery personnel tend to have faster delivery times.
+✔️ Bad weather (rain, fog) increases delivery time.
+
+3️⃣ Customer Segmentation (K-Means Clustering)
+Clustered customers based on:
+
+Delivery Time
+
+Delivery_person_Ratings
+
+Order Frequency
+
+Visualized clusters using scatter plots.
+
+📌 Key Insights:
+✔️ Identified 3 customer segments (Fast & Reliable, Slow but High-Rated, Inconsistent).
+✔️ Helps Uber Eats optimize delivery personnel allocation.
+
+4️⃣ Association Rule Mining (Apriori Algorithm)
+Discovered frequent itemsets (e.g., Snacks + Drinks are often ordered together).
+
+Calculated metrics (Support, Confidence, Lift) to find strong associations.
+
+📌 Key Insights:
+✔️ "Meal + Drinks" has high confidence (75%).
+✔️ "Festival days" lead to more Buffet orders.
+
+5️⃣ User Behavior Analysis
+Analyzed review trends (e.g., higher ratings on weekends).
+
+Customer profiles based on:
+
+Order frequency
+
+Average delivery time
+
+Preferred food categories
+
+📌 Key Insights:
+✔️ Urban customers prefer fast-food orders.
+✔️ Metropolitan customers order more meals during weekdays****
 ---
 
 ## Installation
